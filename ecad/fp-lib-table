@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name "ADXL335")(type "KiCad")(uri "${KIPRJMOD}/lib/ADXL335")(options "")(descr ""))
+  (lib (name "logo")(type "KiCad")(uri "${KIPRJMOD}/lib/logo")(options "")(descr ""))
+)
