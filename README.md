@@ -1,10 +1,19 @@
 # ADXL335
 
-Here is the repository of one of my electronic projects, a rather simple electronic card around a MEMS accelerometer: ADXL335. MEMS accelerometers are compact devices that exploit microfabrication technology to integrate mechanical elements, sensors, actuators, and electronics on a tiny silicon chip. At the core of these devices lies a MEMS structure, often composed of microstructures such as beams or cantilevers, which respond to external forces.
+Here is the repository of one of my electronic projects, a rather simple electronic card around a MEMS accelerometer : ADXL335. MEMS accelerometers are compact devices that exploit microfabrication technology to integrate mechanical elements, sensors, actuators, and electronics on a tiny silicon chip. At the core of these devices lies a MEMS structure, often composed of microstructures such as beams or cantilevers, which respond to external forces.
 
 ![ADXL335](./extra/main-image.jpeg)
 
 This entire project is documented on my [personal website](https://albanpetit.com/posts/adxl-335-accelerometer/), from the electronic card to the code necessary for its operation, including its manufacturing itself. 
+
+## Project structure and usage
+
+Project structure :
+- **ecad** : ecad kicad source files, gerber and ibom
+- **mcad** : mechanical part of the project, using Fusion360 older than : v.2.0.18477
+- **firware** : Arduino script, any version of the programming work, no extra library needed
+
+This project use the latest at this date version of kicad : 8.0.2. 
 
 ## Contribution
 
